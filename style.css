@@ -39,13 +39,13 @@ body {
 }
 
 .text-label h2 {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 500;
   color: #F9F9F9;
 }
 
 .text-label p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   color: #F9F9F9;
 }
@@ -92,6 +92,15 @@ body {
   max-width: 100%;
 }
 
+.carousel .card:nth-child(9) {
+
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-color: #fff;
+  width: 100px;
+  max-width: 100%;
+}
 .carousel .card:nth-child(even) {
   width: 390px;
 }
@@ -229,7 +238,7 @@ body {
 .carousel .card:nth-child(2n) h2 {
   margin-top: 20px;
   margin-bottom: auto;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 500;
   color: #F9F9F9;
   text-align: left;
@@ -239,7 +248,7 @@ body {
 .carousel .card:nth-child(2n) span {
   margin-top: auto;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   color: #F9F9F9;
   text-align: left;
@@ -295,34 +304,41 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
+    gap: 13px;
     overflow-x: auto;
   }
 
   .text-label h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     margin-top: 0;
   }
 
   .text-label p {
-    font-size: 17px;
+    font-size: 16px;
     margin-top: 0;
   }
 
   .button-group .button {
     font-size: 15px;
-    padding: 8px 17px;
+    padding: 5px 0px;
   }
 
   .carousel .card:nth-child(2n) h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
+  
 
   .carousel .card:nth-child(2n) {
     padding: 0 40px;
+    /* margin-top: -170px; */
   }
-
+  .carousel .card:nth-child(9) {
+  display: none;
+  }
+  .carousel .card:nth-child(2n) span{
+    font-size: 16px;
+  }
   .buttons-container {
     position: relative;
     top: auto;
